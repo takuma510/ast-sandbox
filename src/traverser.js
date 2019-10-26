@@ -40,6 +40,13 @@ const traverser = (node, exitVisitor, indent = 0) => {
 
 const exitVisitor = {
   File: (node, res) => res.program,
+  Program: (node, res) => res.body,
+  ExpressionStatement: (node, res) => {
+  },
+  BinaryExpression: (node, res, indent) => {
+  },
+  NumericLiteral: (node, res, indent) => {
+  }
 };
 
 const results = traverser(babelParser.parse(code), exitVisitor);
