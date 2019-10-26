@@ -1,0 +1,12 @@
+{
+  "name": "ast-sandbox",
+  "version": "0.0.1",
+  "description": "ast sandbox",
+  "main": "index.js",
+  "author": "takuma510@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.4"
+  }
+}
