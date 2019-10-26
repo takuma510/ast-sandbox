@@ -2,7 +2,7 @@
 const babelParser = require('@babel/parser');
 const printAST = require('ast-pretty-print');
 
-const code = '1 + 1';
+const code = '1 + 2 * (3 + 4)';
 
 const ast = babelParser.parse(code);
 
