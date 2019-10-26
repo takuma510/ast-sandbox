@@ -50,6 +50,10 @@ const exitVisitor = {
     const { left, right } = res;
     switch (node.operator) {
     case '+': return left + right;
+    case '*': return left * right;
+    case '-': return left - right;
+    case '/': return left / right;
+    case '%': return left % right;
     default: throw new Error('対応してない二項演算子');
     }
   },
