@@ -1,5 +1,5 @@
 const babelParser = require('@babel/parser');
-const code = '1 + 2 * (3 + 4)';
+const code = process.argv.slice(2).join(' ');
 
 const isNode = (obj) => {
   if (typeof obj !== 'object') {
