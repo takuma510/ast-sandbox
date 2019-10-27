@@ -8,6 +8,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.6.4",
-    "ast-pretty-print": "^2.0.1"
+    "ast-pretty-print": "^2.0.1",
+    "prettier": "1.18.2"
   }
 }
